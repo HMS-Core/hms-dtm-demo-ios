@@ -1,0 +1,6 @@
+framework module GRS_C {
+  umbrella header "GRS_C.h"
+
+  export *
+  module * { export * }
+}
