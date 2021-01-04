@@ -9,10 +9,10 @@
 /* Begin PBXBuildFile section */
 		0C86E2C9FC775A1F7F7046A9 /* Pods_HMSDTMKitDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F37197ADC28D49DF2D089B2 /* Pods_HMSDTMKitDemo.framework */; };
 		7E63D24821DD5376D0C70ECF /* Pods_HMSDTMKitDemoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 116C048728AD26E256078AD8 /* Pods_HMSDTMKitDemoTests.framework */; };
-		842F2C5C256F558200A841B2 /* GRS_C.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 842F2C58256F555F00A841B2 /* GRS_C.framework */; };
-		842F2C5D256F558200A841B2 /* GRS_C.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 842F2C58256F555F00A841B2 /* GRS_C.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		846D714C2575C47200C3EE7D /* DTMResource.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 846D714A2575C47200C3EE7D /* DTMResource.bundle */; };
-		846D714D2575C47200C3EE7D /* DTMSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 846D714B2575C47200C3EE7D /* DTMSDK.framework */; };
+		84683FAC2599C5550026D72C /* DTMResource.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 84683FA92599C5540026D72C /* DTMResource.bundle */; };
+		84683FAD2599C5550026D72C /* DTMSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84683FAA2599C5540026D72C /* DTMSDK.framework */; };
+		84683FAF2599C55A0026D72C /* GRS_C.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84683FAB2599C5540026D72C /* GRS_C.framework */; };
+		84683FB02599C55A0026D72C /* GRS_C.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 84683FAB2599C5540026D72C /* GRS_C.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		84763E7A25650FDD00AED175 /* agconnect-services.plist in Resources */ = {isa = PBXBuildFile; fileRef = 84763E7925650FDD00AED175 /* agconnect-services.plist */; };
 		849375652562738C00EDFB7D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 849375642562738C00EDFB7D /* AppDelegate.m */; };
 		8493756B2562738C00EDFB7D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8493756A2562738C00EDFB7D /* ViewController.m */; };
@@ -50,7 +50,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				842F2C5D256F558200A841B2 /* GRS_C.framework in Embed Frameworks */,
+				84683FB02599C55A0026D72C /* GRS_C.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -62,9 +62,9 @@
 		2C047F93839DE15750B59626 /* Pods-HMSDTMKitDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HMSDTMKitDemoTests.release.xcconfig"; path = "Target Support Files/Pods-HMSDTMKitDemoTests/Pods-HMSDTMKitDemoTests.release.xcconfig"; sourceTree = "<group>"; };
 		7B22AFFEAC8A03763E02E8DB /* Pods_HMSDTMKitDemo_HMSDTMKitDemoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HMSDTMKitDemo_HMSDTMKitDemoUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7F37197ADC28D49DF2D089B2 /* Pods_HMSDTMKitDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HMSDTMKitDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		842F2C58256F555F00A841B2 /* GRS_C.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GRS_C.framework; sourceTree = "<group>"; };
-		846D714A2575C47200C3EE7D /* DTMResource.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = DTMResource.bundle; sourceTree = "<group>"; };
-		846D714B2575C47200C3EE7D /* DTMSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = DTMSDK.framework; sourceTree = "<group>"; };
+		84683FA92599C5540026D72C /* DTMResource.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = DTMResource.bundle; sourceTree = "<group>"; };
+		84683FAA2599C5540026D72C /* DTMSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = DTMSDK.framework; sourceTree = "<group>"; };
+		84683FAB2599C5540026D72C /* GRS_C.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GRS_C.framework; sourceTree = "<group>"; };
 		84763E7925650FDD00AED175 /* agconnect-services.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "agconnect-services.plist"; sourceTree = "<group>"; };
 		849375602562738C00EDFB7D /* HMSDTMKitDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HMSDTMKitDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		849375632562738C00EDFB7D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -96,9 +96,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				842F2C5C256F558200A841B2 /* GRS_C.framework in Frameworks */,
-				846D714D2575C47200C3EE7D /* DTMSDK.framework in Frameworks */,
+				84683FAF2599C55A0026D72C /* GRS_C.framework in Frameworks */,
 				0C86E2C9FC775A1F7F7046A9 /* Pods_HMSDTMKitDemo.framework in Frameworks */,
+				84683FAD2599C5550026D72C /* DTMSDK.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -184,9 +184,9 @@
 		84937598256274FF00EDFB7D /* RequiredFrameworks */ = {
 			isa = PBXGroup;
 			children = (
-				846D714A2575C47200C3EE7D /* DTMResource.bundle */,
-				846D714B2575C47200C3EE7D /* DTMSDK.framework */,
-				842F2C58256F555F00A841B2 /* GRS_C.framework */,
+				84683FA92599C5540026D72C /* DTMResource.bundle */,
+				84683FAA2599C5540026D72C /* DTMSDK.framework */,
+				84683FAB2599C5540026D72C /* GRS_C.framework */,
 			);
 			path = RequiredFrameworks;
 			sourceTree = "<group>";
@@ -226,7 +226,7 @@
 				8493755D2562738C00EDFB7D /* Frameworks */,
 				8493755E2562738C00EDFB7D /* Resources */,
 				84DC70E72567EAD200D2E415 /* Embed Frameworks */,
-				FEDFC6BDABC726F1B8AB445E /* [CP] Copy Pods Resources */,
+				CCB1568C8D0E5D4DC51024C4 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -264,7 +264,7 @@
 				849375822562738D00EDFB7D /* Sources */,
 				849375832562738D00EDFB7D /* Frameworks */,
 				849375842562738D00EDFB7D /* Resources */,
-				C4CC32431345C4387C8257D2 /* [CP] Copy Pods Resources */,
+				F16BE5093FD35A4454BCCBC0 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -324,7 +324,7 @@
 			files = (
 				84763E7A25650FDD00AED175 /* agconnect-services.plist in Resources */,
 				849375702562738D00EDFB7D /* Assets.xcassets in Resources */,
-				846D714C2575C47200C3EE7D /* DTMResource.bundle in Resources */,
+				84683FAC2599C5550026D72C /* DTMResource.bundle in Resources */,
 				8493756E2562738C00EDFB7D /* Main.storyboard in Resources */,
 				849375732562738D00EDFB7D /* LaunchScreen.storyboard in Resources */,
 			);
@@ -413,24 +413,7 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		C4CC32431345C4387C8257D2 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-HMSDTMKitDemo-HMSDTMKitDemoUITests/Pods-HMSDTMKitDemo-HMSDTMKitDemoUITests-resources-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Copy Pods Resources";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-HMSDTMKitDemo-HMSDTMKitDemoUITests/Pods-HMSDTMKitDemo-HMSDTMKitDemoUITests-resources-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-HMSDTMKitDemo-HMSDTMKitDemoUITests/Pods-HMSDTMKitDemo-HMSDTMKitDemoUITests-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		FEDFC6BDABC726F1B8AB445E /* [CP] Copy Pods Resources */ = {
+		CCB1568C8D0E5D4DC51024C4 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -445,6 +428,23 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-HMSDTMKitDemo/Pods-HMSDTMKitDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F16BE5093FD35A4454BCCBC0 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HMSDTMKitDemo-HMSDTMKitDemoUITests/Pods-HMSDTMKitDemo-HMSDTMKitDemoUITests-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HMSDTMKitDemo-HMSDTMKitDemoUITests/Pods-HMSDTMKitDemo-HMSDTMKitDemoUITests-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-HMSDTMKitDemo-HMSDTMKitDemoUITests/Pods-HMSDTMKitDemo-HMSDTMKitDemoUITests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
