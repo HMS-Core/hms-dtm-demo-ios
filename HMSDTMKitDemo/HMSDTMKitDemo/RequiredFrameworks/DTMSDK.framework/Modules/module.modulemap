@@ -1,6 +1,0 @@
-framework module DTMSDK {
-  umbrella header "DTMSDK.h"
-
-  export *
-  module * { export * }
-}
