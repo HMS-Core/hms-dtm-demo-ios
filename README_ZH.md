@@ -2,7 +2,7 @@
 
 [![hms](https://img.shields.io/badge/hms-dtm-brightgreen)](https://developer.huawei.com/consumer/en/doc/development/HMS-References/3021004) 
 
-中文 | [English](https://github.com/HMS-Core/hms-dtm-demo-ios/blob/master/README.md)
+中文 | [English](README.md)
 
 ## 目录
 
